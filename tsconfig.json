@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "es2017",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "lib": ["es2017", "dom", "dom.iterable"],
+    "downlevelIteration": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2,
+    "newLineCharacter": "\r\n",
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  }
+}
